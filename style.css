@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.board-container {
+    background: black;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+.board {
+    width: 600px;
+    padding: 8px 0;
+    margin-bottom: 2px;
+}
+
+.black-friday {
+    font-family: "serif", "sans-serif", helvetica; 
+}
+
+.menu-container {
+    background: #f7f0e5;
+    display: flex;
+    justify-content: flex-start
+}
+
+.menu {
+    height: 140px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin-left: 50px;
+}
+
+.logo {
+    height: 150px;
+    width: 250px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none; 
+    color: #808080;
+    font-size: 1.15rem;
+}
+
+.link {
+    display: flex;
+    margin: auto;
+    gap: 30px;
+}
+
+.about-us,
+.contactus,
+.search,
+.login,
+.cart {
+    margin-bottom: 26px;
+}
